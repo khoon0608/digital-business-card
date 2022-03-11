@@ -1,0 +1,19 @@
+/** @format */
+
+@import "./reset";
+
+@import "./main";
+@import "./footer";
+
+.App {
+  width: fit-content;
+  height: fit-content;
+  img {
+    display: block;
+    width: 315px;
+    height: 315px;
+
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+}

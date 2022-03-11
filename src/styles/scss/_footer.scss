@@ -1,0 +1,23 @@
+/** @format */
+
+@import "./var";
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 315px;
+  height: 65px;
+  background-color: $d-footer-bg;
+
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+  .footer--icon {
+    margin: 0 10px;
+    color: $icon;
+    height: 30px;
+    width: 30px;
+  }
+}
